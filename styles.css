@@ -1,15 +1,14 @@
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    background-color: #2196F3;
+   
+    background-color: #ffffff;
     padding: 40px;
   }
   
   .grid-container > div {
     
-    font-size: 30px;
-    text-align: left;
+
     padding: 20px;
     font-family: 'Karla', sans-serif;
     font-weight: 400, 700;
@@ -25,13 +24,16 @@
     background-color: aliceblue;
   }
   h2.titl1{ 
+    font-size: 40px;
     color: #2EB2AF;
 }
 h3.titl2{
+  font-size: 28px;
   color: #BFE03A;
 }
 p.paragraph1{
   color: #C0C3C6;
+  font-size: 15px;
 }
   .item2 {
     padding: 40px;
@@ -43,6 +45,7 @@ p.paragraph1{
 }
 h3.titl11{
   color: #F0FEFC;
+  font-size: 28px;
 }
 span.Signn{
   color: #F0FEFC;
@@ -50,15 +53,35 @@ span.Signn{
 }
 span.timme{
   color: #68D2D3;
+  font-size: 20px;
+
 }
 p.paragraph2{
   color: #F0FEFC;
+  font-size: 25px;
+
 }
 button{
   background-color: #BFE03A;
   color: #F0FEFC;
+  
+    border: none;
+  
+    padding: 14px 180px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    float: left;
+   
+
  
 }
+
   .item3 {
     padding: 40px;
     grid-column-start: 2;
@@ -69,8 +92,11 @@ button{
   } 
   h3.titl111{
     color: #F0FEFC;
+    font-size: 28px;
 
   }
   p.paragraph3{
     color: #8BDCDC;
+    font-size: 20px;
+
   }
